@@ -1,0 +1,28 @@
+[
+    { 
+            "firstName": "Lokesh",
+            "lastName": "Gupta",
+            "address": {"city":"Mumbai","state":"MH","zip":400088},
+            "phoneNumber":"9955668742"
+    },
+    { 
+            "firstName": "Brian",
+            "lastName": "Schultz",
+            "address": {"city":"BBSR","state":"OD","zip":765022},
+            "phoneNumber":"9957891542"
+ 
+    },
+    {
+            "firstName": "Sayali",
+            "lastName": "Yede",
+            "address": {"city":"Mumbai","state":"MH","zip":400256},
+            "phoneNumber":"9914581542"
+ 
+    },
+    {
+            "firstName": "Anjali",
+            "lastName": "Tote",
+            "address": {"city":"Wardha","state":"MH","zip":408756},
+            "phoneNumber":"9954681542"
+    }
+]

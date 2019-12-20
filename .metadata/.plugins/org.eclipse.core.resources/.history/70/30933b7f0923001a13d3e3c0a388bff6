@@ -1,0 +1,5 @@
+package com.bridgrlabzs.addressbook;
+
+public class AddressBookManagerImpl {
+
+}

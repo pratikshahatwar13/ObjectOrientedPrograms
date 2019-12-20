@@ -1,0 +1,5 @@
+package com.bridgelabzs.inventory;
+
+public interface InventoryMethods {
+
+}

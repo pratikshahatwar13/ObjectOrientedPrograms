@@ -1,0 +1,5 @@
+package com.bridgrlabzs.commercialdataprocessing;
+
+public interface Data {
+
+}

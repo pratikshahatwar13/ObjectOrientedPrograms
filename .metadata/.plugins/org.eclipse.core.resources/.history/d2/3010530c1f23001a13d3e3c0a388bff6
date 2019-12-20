@@ -1,0 +1,20 @@
+package com.bridgrlabzs.commercialdataprocessing;
+
+import java.io.File;
+
+import org.codehaus.jackson.JsonNode;
+import org.codehaus.jackson.map.ObjectMapper;
+
+
+public class CommercialDataProcessing {
+
+	public static void main(String[] args) {
+		CompanyShare companyshare[];
+		String pathname="/home/user/ObjectOrientedPrograms/ObjectOrientedPrograms/src/com/bridgrlabzs/commercialdataprocessing/cdp.json";
+        String pathname1="/home/user/ObjectOrientedPrograms/ObjectOrientedPrograms/src/com/bridgrlabzs/commercialdataprocessing/replacefile.json";
+        File file = new File(pathname);
+        ObjectMapper mapper = new ObjectMapper();
+        JsonNode node=mapper.readTree(file);
+	}
+
+}

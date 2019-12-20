@@ -1,0 +1,37 @@
+package com.bridgelabzs.inventory;
+
+import java.util.List;
+
+public class InventoryMethodsImpl implements InventoryMethods {
+
+	@Override
+	public Inventory addInventory() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public long totalWeight(List<Inventory> inventaryList) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public long totalPrice(List<Inventory> inventaryList) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void display(List<Inventory> inventaryList) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public List<Inventory> removeInventory(List<Inventory> inventaryList) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
