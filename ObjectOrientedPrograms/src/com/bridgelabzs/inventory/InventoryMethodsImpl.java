@@ -71,7 +71,6 @@ public class InventoryMethodsImpl implements InventoryMethods{
 
 	/*
 	 * Purpose : Saving all the data into file
-	 * 
 	 * @param T is the list which contains all the details of the products
 	 * @param file is the name of the file in which data is to be saved
 	 */

@@ -1,0 +1,41 @@
+package com.bridgelabzs.controller;
+
+import java.util.List;
+
+import com.bridgelabzs.model.Appointment;
+import com.bridgelabzs.model.Doctor;
+import com.bridgelabzs.model.Patient;
+
+public class DisplayDetailsImpl implements DisplayDetails {
+
+	@Override
+	public void displayDoctor(List<Doctor> doctorList) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void displayPatient(List<Patient> patientList) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void displayAppointment(List<Appointment> appointmentList) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void displayPopularDoctor(List<Doctor> doctorList) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void displayPopularSpecialization(List<Doctor> doctorList) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

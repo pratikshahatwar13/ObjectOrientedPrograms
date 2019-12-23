@@ -1,0 +1,18 @@
+[
+       {
+              "company" : "RIL",
+              "sharesAvailable" :10,
+              "pricePerShare" : 10
+       },
+       {
+              "company" : "Tata",
+              "sharesAvailable" :50,
+              "pricePerShare" : 10
+       },
+       {
+              "company" : "SBI",
+              "sharesAvailable" :30,
+              "pricePerShare" : 10
+       }
+
+]

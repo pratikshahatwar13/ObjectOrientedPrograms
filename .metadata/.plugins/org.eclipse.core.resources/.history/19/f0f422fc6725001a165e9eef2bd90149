@@ -1,0 +1,52 @@
+package com.bridgelabzs.controller;
+
+import java.util.List;
+
+import com.bridgelabzs.model.Doctor;
+import com.bridgelabzs.model.Patient;
+
+public class SearchDetailsImpl implements SearchDetails {
+
+	@Override
+	public void searchDoctorById(List<Doctor> doctorList) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void searchDoctorByName(List<Doctor> doctorList) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void searchDoctorBySpecialization(List<Doctor> doctorList) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void searchDoctorByAvailability(List<Doctor> doctorList) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void searchPatientById(List<Patient> patientList) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void searchPatientByName(List<Patient> patientList) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void searchPatientByContact(List<Patient> patientList) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

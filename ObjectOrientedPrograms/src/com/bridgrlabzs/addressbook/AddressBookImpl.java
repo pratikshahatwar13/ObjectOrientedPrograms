@@ -153,7 +153,7 @@ public class AddressBookImpl implements AddressBook {
 	 */
 	public void save(String file) {
 		try {
-			mapper.writeValue(new File("AddressBook/" + file + ".json"), list);
+			mapper.writeValue(new File("/home/user/ObjectOrientedPrograms/ObjectOrientedPrograms/AddressBook/" + file + ".json"), list);
 			System.out.println("\n\t\t\tSaved");
 		} catch (JsonGenerationException e) {
 			e.printStackTrace();
@@ -171,7 +171,7 @@ public class AddressBookImpl implements AddressBook {
 	public void read(String existingAddressBook) throws Exception {
 		ObjectMapper objectMapper = new ObjectMapper();
 		try {
-			BufferedReader reader = new BufferedReader(new FileReader("AddressBook/" + existingAddressBook + ".json"));
+			BufferedReader reader = new BufferedReader(new FileReader("/home/user/ObjectOrientedPrograms/ObjectOrientedPrograms/AddressBook/" + existingAddressBook + ".json"));
 			String arrayToJson;
 			if ((arrayToJson = reader.readLine()) != null) {
 				TypeReference<ArrayList<Person>> type = new TypeReference<ArrayList<Person>>() {

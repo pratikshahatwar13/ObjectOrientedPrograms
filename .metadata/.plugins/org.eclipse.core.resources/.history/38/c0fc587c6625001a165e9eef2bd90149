@@ -1,0 +1,42 @@
+package com.bridgelabzs.controller;
+
+import java.util.List;
+
+import com.bridgelabzs.model.Appointment;
+import com.bridgelabzs.model.Doctor;
+import com.bridgelabzs.model.Patient;
+
+public class AddDetailsImpl implements AddDetails {
+
+	@Override
+	public List<Doctor> addDoctor(List<Doctor> doctorList) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Patient> addPatient(List<Patient> patientList) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Appointment> takeAppointment(List<Doctor> doctorList, List<Patient> patientList,
+			List<Appointment> appointmentList) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public <T> void save(List<T> T, String file) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public <T> List<T> read(List<T> T, String file, String model) throws Exception {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

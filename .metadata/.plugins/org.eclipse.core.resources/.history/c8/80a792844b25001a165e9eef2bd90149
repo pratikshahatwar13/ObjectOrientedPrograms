@@ -1,0 +1,37 @@
+package com.bridgelabzs.stock;
+
+import java.util.List;
+
+public class StockAccountImpl implements StockAccount {
+
+	@Override
+	public long valueOf(List<Company> company) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void buy(String name) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void sell(String name) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void save(String filename, String name) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void printReport() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

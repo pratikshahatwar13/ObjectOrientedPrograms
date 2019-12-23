@@ -1,0 +1,12 @@
+package com.bridgelabzs.controller;
+
+import java.util.List;
+
+import com.bridgelabzs.model.Appointment;
+import com.bridgelabzs.model.Doctor;
+import com.bridgelabzs.model.Patient;
+
+public class DisplayDetailsImpl implements AddDetails {
+
+	
+}
